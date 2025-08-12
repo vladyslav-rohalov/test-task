@@ -11,9 +11,9 @@ Table: Server-side sorting, pagination, Refresh/Delete buttons, loaders, errors 
 ## Backend
 
 POST /api/auth/register\
-POST /api/auth/login\
+POST /api/auth/login
 
 GET /api/projects?page&limit&sort_by&sort_as\
 POST /api/projects\
 POST /api/projects/:id/refresh\
-DELETE /api/projects/:id\
+DELETE /api/projects/:id
